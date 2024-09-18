@@ -1,0 +1,78 @@
+:root {
+    --nav-height: 70px;
+}
+
+body {
+    background-color:#ccc;
+    margin:0 15%;
+}
+
+nav {
+    display:block;
+    background-color:#33f;
+    height:var(--nav-height);
+    padding:0 20px;
+}
+
+div.navlink {
+    margin:0;
+    height:var(--nav-height);
+    display:inline-block;
+    min-width:100px;
+}
+
+div.right {
+    float:right;
+}
+
+div.navlink > * {
+    text-align:center;
+}
+
+div.button > img {
+    height:50%;
+    padding:20px
+}
+
+a.link {
+    display:block;
+    color:white;
+    text-decoration:none;
+    font-size:1.2em;
+    width: 100%;
+    height: var(--nav-height);
+    line-height:var(--nav-height);
+}
+
+a.link:hover {
+    background-color: #0006;
+}
+
+div.button {
+    margin:0;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+a.button {
+    background-color: #22c;
+    display:inline-block;
+    color:white;
+    text-decoration:none;
+    font-size:1.2em;
+    vertical-align: middle;
+    padding:10px 20px;
+}
+
+a.button:hover {
+    background-color: #0006;
+}
+
+main {
+    margin:0px;
+    padding:0px 20px;
+    background-color: #fff;
+}
