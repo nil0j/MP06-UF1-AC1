@@ -76,3 +76,21 @@ main {
     padding:0px 20px;
     background-color: #fff;
 }
+
+div.grid {
+    display:grid;
+    grid-template-columns: 50% 25% 25%;
+    width:100px;
+    height:100px;
+}
+
+div.grid-item {
+    display:inline-grid;
+    height:100%;
+}
+
+img.grid {
+    display:inline-block;
+    height:auto;
+}
+
